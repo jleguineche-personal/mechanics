@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  
+}
+
+body {
+  margin:0;
+
+}
+
+p {
+  margin:0px;
+}
+
+h1 {
+  margin:0px;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.header {
+  background-color: #313549;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  height: 100px;
+  display:flex;
+  box-shadow: 5px 10px 19px -3px #313549;
+  position: relative;
+  z-index: 10;
+  font-family: "Verdana", sans-serif;
+}
+
+.menu {
+  background-color: #4E6880;
+  color: #ffffff;
+  width: 20%; 
+  height: calc(100vh - 100px);
+  float: left;
+  margin: 0px;
+  padding-top: 20px;
+  padding-left: 20px; 
+  padding-right: 20px; 
+  overflow-y: scroll;
+  font-family: 'Tahoma', sans-serif;
+
+}
+
+.body {
+  background-color: #4E6880;
+  color: #ffffff;
+  width: 80%; 
+  height: calc(100vh - 100px);
+  float: left;
+  padding-top: 20px;
+  padding-left: 50px; 
+  padding-right:50px;
+  text-align: left;
+  overflow-y: scroll;
+  font-family: 'Calibri', sans-serif;
+
+}
+.header-left {
+  width:calc(100%/3);
+  text-align:left;
+  margin:auto;
+  padding-left:20px;
+}
+
+.header-mid {
+  width:calc(100%/3);
+  text-align:center;
+  margin:auto;
+}
+
+.header-right {
+  width:calc(100%/3);
+  text-align:right;
+  margin:auto;
+  padding-right: 5px;
+  font-weight: bold;
+}
+
+.image {
+  height:75px;
+  width:auto;
+}
+
+.homelink {
+  text-decoration: none;
+  color: white;
+  padding: 5px 5px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.homelink:hover {
+  background-color: lightslategray;
+}
+
+.mainlink {
+  text-decoration: none;
+  color: white;
+  padding: 0;
+}
+
+.menulink {
+  text-decoration: none;
+  color: white;
+  padding: 1px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.menulink:hover {
+  background-color: lightslategray;
+}
+
+.button {
+  background-color: #4E6880;
+  color: #ffffff;
+  border-radius: 10px;
+  height: 30px;
+  text-align: left;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  font-family : inherit;
+ }
+
+ .button:hover {
+  background-color: lightslategray;
+
+ }
+
+.content {
+  text-align: left;
+  background-color: #4E6880;
+  visibility: hidden;
+  padding-left:15px;
+  margin:0px;
+  width:100%;
+  height:0px;
+  font-family : inherit;
+}
+
